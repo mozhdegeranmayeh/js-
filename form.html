@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <p>singup form</p>
+
+      <form action="/action_page.php">
+        <table>
+          <tr>
+            <td width="100"><label for="fname"> name:</label></td>
+            <td><input type="text" id="fname" name="fname" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="lname">family:</label></td>
+            <td><input type="text" id="lname" name="lname" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="lname">username:</label></td>
+            <td><input type="text" id="user" name="lname" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="lname">password:</label></td>
+            <td><input type="password" id="pass" name="lname" value="" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="lname">select city</label></td>
+            <td>
+              <select>
+                <option>--choose a city--</option>
+                <option>tehran</option>
+                <option>esfahan</option>
+                <option>shiraz</option></select
+              ><br /><br />
+            </td>
+          </tr>
+        </table>
+        <span id="vaild-pass"></span>
+
+        <h4 class="message"><a href="#">Forgot your password?</a></h4>
+        <button type="submit"><a href="index2.html">SIGN IN</a></button>
+      </form>
+    </div>
+  </body>
+  <script src="form js.js"></script>
+</html>
