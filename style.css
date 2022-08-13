@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(to right, #dc6ff7, #9fde9f);
+}
+
+backgroung-image {
+}
+
+form {
+  text-align: center;
+  padding:20px
+
+  color: rgb(9, 8, 8);
+}
+
+input{border-radius: 5px;}
+
+table {
+ 
+}
+
+p {font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(12, 11, 11);
+}
+
+div {
+  background-color: white;
+  width: 250px;
+  height: 500px;
+  margin: 100px auto;
+  padding-top: 10px;
+  border-radius: 5px
+}
+
+a:link{text-decoration: none;}
+
+button{background-color: rgb(154, 236, 236);
+border-radius: 5px;}s
